@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SuperCalculator - Age Calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <h1 class="h1" style="text-align: center; color: white;">Age Calculator</h1>
+  <div class="main">
+    <table width="320px" border="0" cellspacing="0" cellpadding="0" style='text-align:center;vertical-align:middle'>
+      <tbody>
+        <tr>
+          <td>
+            <div class="husband">
+              <p style="text-align: center; color: white;"><b>Select Date of Birth:</b></p>
+              <form id="birthdayForm">
+                <div class="wife">
+                  <div class="son">
+                    <label class="date" style="font-weight: bold; color: white;">Date:</label>
+                    <select id="day" class="sel-light"></select>
+
+                    <label class="date month" style="font-weight: bold; color: white;">Month:</label>
+                    <select id="month" class="sel-light"></select>
+
+                    <label class="date" style="font-weight: bold; color: white;">Year:</label>
+                    <select id="year" class="sel-light"></select>
+                  </div>
+                </div>
+              </form>
+              <p style="text-align:center;">
+                <button class="btn-bubble btn" id="calculateAge" style="width:100px; margin: 0 auto;">Calculate</button>
+              </p>
+
+              <input id="age" placeholder="Result">
+              <p class="date1" style="color: white;">You have been living for:</p>
+              <table class="table-condensed">
+                <tbody>
+                  <tr><td class="date-red">In months</td><td><input id="months"></td></tr>
+                  <tr><td class="date-red">In days</td><td><input id="days"></td></tr>
+                  <tr><td class="date-red">In hours</td><td><input id="hours"></td></tr>
+                  <tr><td class="date-red">In minutes</td><td><input id="minutes"></td></tr>
+                  <tr><td class="date-red">In seconds</td><td><input id="seconds"></td></tr>
+                  <tr>
+                    <td colspan="2" class="date-red">Your next birthday: <input id="nextBirthday" style="width: 40%;"></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <h5 style="text-align: center; color: white;">
+    Copyright &#169; 2024 Sachin Raj<br/>
+    <script>document.write("Last Modified: " + document.lastModified);</script>
+  </h5>
+</body>
+</html>
