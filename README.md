@@ -74,7 +74,7 @@ Performs matrix operations and determinant calculations.
 ## 13. Binary Calculator
 Handles binary/hex/decimal conversions and operations.
 
-<img src="screeenshot/binary1.png" width="350" title="Binary 1"><img src="screeenshot/binary2.png" width="350" title="Binary 2">
+<img src="screeenshot/binary1.png" width="350" title="Binary 1"><img src="screeenshot/binary2.jpg" width="350" title="Binary 2">
 
 ## 14. Age Calculator
 Calculates age in multiple time units and counts down to birthdays.
@@ -109,7 +109,7 @@ Decodes resistor bands for 4-6 band resistors.
 ## 20. 2D Graphing Calculator
 Plots functions using Desmos integration.
 
-<img src="screeenshot/2d.png" width="650" title="2D Grapher">
+<img src="screeenshot/2d.jpg" width="650" title="2D Grapher">
 
 ## 21. 3D Graphing Calculator
 Advanced 3D function visualizer (desktop only).
